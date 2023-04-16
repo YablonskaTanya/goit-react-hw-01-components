@@ -14,7 +14,7 @@ import {
   TableBodyCurrency,
 } from './TransactionHistory.styled';
 
-export const TransactionHistory = ({ items, id, type, amount, currency }) => {
+export const TransactionHistory = ({ items }) => {
   return (
     <TransactionTable>
       <TableHeadContainer>
