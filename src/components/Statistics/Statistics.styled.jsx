@@ -44,8 +44,3 @@ export const Percentage = styled.span`
   font-size: 16px;
   font-weight: 600;
 `;
-
-// function getRandomHexColor() {
-//   let bgColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
-//   return bgColor;
-// }
