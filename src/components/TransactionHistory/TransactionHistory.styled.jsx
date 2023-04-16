@@ -49,6 +49,7 @@ export const TableBody = styled.tbody`
 `;
 export const TableBodyList = styled.tr`
   display: flex;
+  justify-content: space-around;
 `;
 export const TableBodyType = styled.td`
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -56,6 +57,9 @@ export const TableBodyType = styled.td`
   width: 140px;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
 `;
 export const TableBodyAmount = styled.td`
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -63,6 +67,9 @@ export const TableBodyAmount = styled.td`
   width: 140px;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
 `;
 export const TableBodyCurrency = styled.td`
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -70,4 +77,7 @@ export const TableBodyCurrency = styled.td`
   width: 140px;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
 `;
