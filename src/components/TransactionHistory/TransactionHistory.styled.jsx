@@ -47,7 +47,7 @@ export const TableBody = styled.tbody`
   display: flex;
   flex-direction: column;
 `;
-export const TableBodyList = styled.th`
+export const TableBodyList = styled.tr`
   display: flex;
 `;
 export const TableBodyType = styled.td`
