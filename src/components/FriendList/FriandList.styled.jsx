@@ -40,8 +40,8 @@ const statusColor = props => {
 
 export const Starus = styled.span`
   display: block;
-  width: 15px;
-  height: 15px;
+  width: 25px;
+  height: 25px;
   background-color: ${statusColor};
   border-radius: 50%;
 `;
